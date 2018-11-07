@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product Landing Page</title>
+</head>
+<body>
+	<header id="header">
+		<div class="logoname animated infinite bounce delay-5s">
+			<h1>  World of Football </h1>
+			<img src="images/football.png" id="header-img"> <!-- logo -->
+		</div>
+
+
+		<nav id="nav-bar"> <!-- navigation -->
+			<ul>
+				<li><a href="#link1" class="nav-link">Features</a></li>
+				<li><a href="#video" class="nav-link">How it works</a></li>
+				<li><a href="#pricinklink" class="nav-link">Pricing</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section class="mainpage" >
+		
+		<form id="form" action="https://www.freecodecamp.com/email-submit"> <!-- User Story #7: My landing page has a form element with a corresponding id="form". -->
+			<h2> Enter your email adress for our newest deals! </h2>
+			<input type="email" name="emailaddress" id="email" placeholder="Enter your email here! :)">
+			<button type="submit" class="btn btn-primary animated animated infinite pulse" id="submit">Submit</button>
+		</form>
+
+		<section class="features">
+			<div class="services" id="link1">
+				<h3> Services </h3>
+				<img src="images/football-shirt.png"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quo perferendis asperiores suscipit dolor incidunt.
+			</div>
+			<div class="services">
+				<img src="images/football-field.png"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quo perferendis asperiores suscipit dolor incidunt.
+			</div>
+			<div class="services">
+				<img src="images/soccer-whiteboard.png"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, quo perferendis asperiores suscipit dolor incidunt.
+			</div>
+		</section>
+
+		<section id="video">
+			<h3> How it works </h3>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/9VxYsjj4H-w" frameborder="1" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</section>
+
+
+		<section class="pricing" id="pricinklink">
+			<h3> Pricing </h3>
+			<div class="test">
+				<div class="pricingbox">
+					<h4> $300 </h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque ipsa perferendis voluptas doloremque eos repudiandae ipsam, aliquam eaque recusandae sequi perspiciatis maxime veritatis facilis eius alias ipsum officia. Nesciunt. </p>
+					<button type="submit" class="btn btn-primary animated animated infinite pulse" id="submit">More info</button>
+				</div>
+				<div class="pricingbox">
+					<h4> $600 </h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque ipsa perferendis voluptas doloremque eos repudiandae ipsam, aliquam eaque recusandae sequi perspiciatis maxime veritatis facilis eius alias ipsum officia. Nesciunt. </p>
+					<button type="submit" class="btn btn-primary animated animated infinite pulse" id="submit">More info</button>
+				</div>
+				<div class="pricingbox">
+					<h4> $900 </h4>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi itaque ipsa perferendis voluptas doloremque eos repudiandae ipsam, aliquam eaque recusandae sequi perspiciatis maxime veritatis facilis eius alias ipsum officia. Nesciunt. </p>
+					<button type="submit" class="btn btn-primary animated animated infinite pulse" id="submit">More info</button>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>	
+</html>

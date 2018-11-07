@@ -1,0 +1,199 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background: url("images/background.jpg") no-repeat fixed;
+}
+
+#header {
+	margin: 0 auto;
+	max-width: 90%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logoname {
+	display: flex;
+	align-items: center;
+}
+
+h1, #nav-bar a {
+	color: #d90022;
+}
+
+#header-img {
+	padding-left: 5px;
+}
+
+#nav-bar ul {
+	display: flex;
+	list-style-type: none;
+	position: fixed;
+	right: 5%;
+}
+
+#nav-bar ul li {
+	padding: 5px;
+}
+
+.nav-link {
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+#nav-bar ul li:not(:last-of-type) {
+	border-right: 2px solid #d90022;
+}
+
+.mainpage {
+	margin: 0 auto;
+	max-width: 1500px;
+	text-align: center;
+}
+
+.mainpage h2 {
+	/*border-top: 1px solid black;*/
+	border-bottom: 1px solid black;
+	padding: 10px;
+	margin-bottom: 5px;
+	color: #d90022;
+	text-align: center;
+	max-width: 600px;
+	margin: 20px auto;
+}
+input {
+	max-width: 200px;
+}
+
+input::placeholder {
+	color: #d90022; 
+	text-align: center;
+}
+
+#form {
+	/*border-bottom: 1px solid black;*/
+	padding: 20px;
+}
+
+.btn-primary {
+	margin: 10px;
+	background: #d90022;
+	border-radius: 20px;
+	border: none;
+}
+
+#form .btn-primary:hover {
+	background: #474747;
+}
+
+.features {
+	padding: 18px;
+}
+
+.services img {
+	padding: 10px;
+}
+
+.services h3 {
+	text-align: center;
+}
+
+#video {
+	margin-top: 200px;
+}
+
+#video h3 {
+	text-transform: uppercase;
+	padding: 10px;
+	text-shadow: 2px 2px 5px red;
+}
+
+#link1 {
+	margin-top: 100px;
+	border-top: 2px solid #d90022;
+}
+
+#link1 h3 {
+	text-transform: uppercase;
+	padding: 10px;
+	text-shadow: 2px 2px 5px red;
+}
+
+.pricing {
+	margin-top: 200px;
+	
+}
+
+.pricing .test {
+	display: flex;
+	justify-content: center;
+}
+
+
+.pricingbox {
+	max-width: 300px;
+	height: 300px;
+	border: 2px dashed #d90022;
+	margin: 20px;
+	font-size: 18px;
+	background: #e7e7e7;
+}
+
+.pricing h3 {
+	text-transform: uppercase;
+	padding: 10px;
+	text-shadow: 2px 2px 5px red;
+}
+
+.pricingbox .btn-primary {
+	background: #3b3b3b;
+	color: #e7e7e7;
+
+}
+
+.btn-primary:hover {
+	background: #d90022;
+	color: white;
+}
+
+
+@media only screen and (max-width: 900px) {
+	#header {
+		margin: 0 auto;
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	#nav-bar {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#nav-bar ul {
+		display: flex;
+		list-style-type: none;
+		position: initial;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.mainpage {
+		min-width: 600px;
+	}
+
+	#video {
+		margin: 0 auto;
+		max-width: 500px;
+	}
+
+}
+
+
+/* trq se narpavi FIXED NAV TOP i pone edin media query (min-width)  + za kursa monthly subscription and git hub*/
